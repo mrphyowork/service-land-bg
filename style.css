@@ -1,0 +1,141 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background: linear-gradient(to right, skyblue, lightgray);
+}
+
+nav {
+  /* border: 2px solid black; */
+  /* display: inline-block; */
+  width: 90vw;
+  margin: 50px auto;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  /* align-items: center; */
+  text-align: center;
+  position: relative;
+}
+
+.logo {
+  display: inline;
+  position: absolute;
+  left: 10px;
+  top: 10%;
+  width: 70px;
+  height: 70px;
+  margin-right: 90%;
+  border-radius: 50%;
+}
+
+.logo:hover {
+  box-shadow: 2px 2px 2px 2px red;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  margin-right: 70px;
+  text-decoration: none;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+nav ul li a:hover {
+  color: #e71820;
+}
+
+.consultent {
+  position: relative;
+  bottom: 21px;
+  left: 40%;
+  background-color: purple;
+  color: orange;
+  text-decoration: none;
+  padding: 20px 30px;
+  /* border: 1px solid black; */
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 1.2rem;
+  border-radius: 10px;
+}
+
+.consultent:hover {
+  color: #0a99fe;
+  /* background-color: lightgrey; */
+}
+
+.c-body {
+  /* border: 2px solid black; */
+  width: 90vw;
+  height: 60vh;
+  margin: 60px auto;
+  position: relative;
+}
+
+img {
+  border-radius: 50%;
+  width: 30vw;
+  position: absolute;
+  top: 50px;
+  right: 0;
+
+  /* float: right; */
+  padding: auto;
+}
+
+h2 {
+  font-family: "Eczar", serif;
+  color: #e71820;
+  font-weight: 600;
+  font-size: 3.5rem;
+  padding-top: 20px;
+  margin-bottom: 10px;
+  transition: 2s;
+}
+
+h2:hover {
+  font-size: 600%;
+  color: #0a99fe;
+}
+
+.h2-span {
+  font-family: "Josefin Sans", sans-serif;
+  color: #0a99fe;
+  font-weight: 400;
+  font-size: 2rem;
+}
+
+.h2-span:hover {
+  color: #e71820;
+}
+
+p {
+  font-family: "Inter", sans-serif;
+  line-height: 1.5;
+  text-justify: auto;
+  margin-bottom: 90px;
+  width: 60%;
+}
+
+h3 {
+  font-family: "Eczar", serif;
+  border-bottom: 2px solid black;
+  display: inline-block;
+  width: 20%;
+  margin-bottom: 20px;
+}
+
+ol {
+  font-family: "Inter", sans-serif;
+  line-height: 2;
+  /* text-justify: auto; */
+  padding-left: 20px;
+}
