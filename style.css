@@ -30,10 +30,44 @@ nav {
   height: 70px;
   margin-right: 90%;
   border-radius: 50%;
+  /* transition: 6s; */
+  animation: bounce 2s infinite;
 }
 
-.logo:hover {
+/* .logo:hover {
   box-shadow: 2px 2px 2px 2px red;
+  transform: rotatey(360deg);
+} */
+
+/* @keyframes fade-and-show {
+  0%,
+  50%,
+  80%,
+  100% {
+    transform: translateY(0);
+  }
+  /* 50% {
+    opacity: 0.5;
+    transform: scale(0.5);
+  }
+  100% {
+    opacity: 1;
+  } */
+
+@keyframes bounce {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-20px);
+  }
+  60% {
+    transform: translateY(-20px);
+  }
 }
 
 nav ul li {
@@ -81,7 +115,7 @@ nav ul li a:hover {
 }
 
 img {
-  border-radius: 50%;
+  /* border-radius: 50%; */
   width: 30vw;
   position: absolute;
   top: 50px;
